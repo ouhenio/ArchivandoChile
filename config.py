@@ -60,7 +60,7 @@ def save_config():
     """
     global config
     try:
-        json.dump(config, open("config.json", 'w'))
+        json.dump(config, open("config.json", 'w'), indent=2)
     except Exception as e:
         logging.info("cannot save config.json", e)
         exit(1)

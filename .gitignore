@@ -2,3 +2,5 @@
 /venv
 /*.json
 /*.log
+config.pyc
+/.venv
